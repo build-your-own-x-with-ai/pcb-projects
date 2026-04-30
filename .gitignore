@@ -1,0 +1,38 @@
+venv/
+.DS_Store
+*.pyc
+__pycache__/
+.claude/
+*.app
+
+# === 嘉立创EDA 相关临时/备份文件 ===
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+lceda.lock
+.history/
+
+# === macOS / Windows 系统垃圾文件 ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === IDE/编辑器临时文件 ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === 你可以选择忽略的导出文件（可选） ===
+# 如果你不想提交 Gerber/PDF 等导出文件，可以取消下面的注释
+# *.pdf
+# *.png
+# *.svg
+# gerber/
+ReadmeGenerator/
